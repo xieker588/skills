@@ -188,3 +188,11 @@ Tools I keep around but rarely use.
 - **[migrate-to-shoehorn](./skills/misc/migrate-to-shoehorn/SKILL.md)** — Migrate test files from `as` type assertions to @total-typescript/shoehorn.
 - **[scaffold-exercises](./skills/misc/scaffold-exercises/SKILL.md)** — Create exercise directory structures with sections, problems, solutions, and explainers.
 - **[setup-pre-commit](./skills/misc/setup-pre-commit/SKILL.md)** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
+
+### Companion
+
+Anime desktop AI buddy — for personal use.
+
+**User-invoked**
+
+- **[anime-desktop-companion](./skills/companion/anime-desktop-companion/SKILL.md)** — Build and operate a local anime-style desktop AI buddy (voice wake, computer control, long-term memory) with a self-built Harness/Loop engine (AIRI / Open-LLM-VTuber as reference modules).
