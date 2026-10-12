@@ -196,3 +196,22 @@ Anime desktop AI buddy — for personal use.
 **User-invoked**
 
 - **[anime-desktop-companion](./skills/companion/anime-desktop-companion/SKILL.md)** — Build and operate a local anime-style desktop AI buddy (voice wake, computer control, long-term memory) with a self-built Harness/Loop engine (AIRI / Open-LLM-VTuber as reference modules).
+
+## Local management
+
+This fork is maintained locally. Useful commands (run from the repo root):
+
+```powershell
+# 盘点全机所有技能库（自动跳过 node_modules / .git / dist）
+python scripts\index_skills.py --out "F:\deepseek Harness 工作流文件\资料库\_index"
+
+# 新建技能：复制模板后改名
+copy skills\_template\SKILL.md skills\<category>\<my-skill>\SKILL.md
+```
+
+Notes:
+
+- `skills/companion/*/runtime/` is a ~1.4 GB local build output and is git-ignored.
+- Repo guide: [`docs/skills-repo.md`](docs/skills-repo.md)
+- Personal knowledge base (resumes, notes, indexes) lives outside this repo at
+  `F:\deepseek Harness 工作流文件\资料库\`.
